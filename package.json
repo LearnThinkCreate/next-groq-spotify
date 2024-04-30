@@ -1,0 +1,30 @@
+{
+  "name": "next-groq",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "latest",
+    "ai": "latest",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "@types/react": "18.2.8",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "13.4.12",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "typescript": "5.1.3"
+  },
+  "packageManager": "pnpm@8.6.3+sha512.d18e277ae8072091046bccbca0931f77dc3080791cd6122ae890bf504125d8af76b37fb33da287dba9fbbb6da6ebb13e314e9fa4a464c7effe3d8599cebe7243"
+}
